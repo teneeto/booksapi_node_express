@@ -1,0 +1,6 @@
+To import book data into your database
+Make sure mongo db is running
+run 'mongo bookAPI < booksJson.js' from the command line
+DB address is '/Users/mcnamora/mongodb/data/db'
+starting mongodb: 'mongod --dbpath /Users/mcnamora/mongodb/data/db'
+setting environmental variables: 'export PATH=/Users/mcnamora/mongodb/bin:$PATH'
