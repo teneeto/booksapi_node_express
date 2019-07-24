@@ -34,5 +34,5 @@ function routes(Book) {
       });
     });
   return bookRouter;
-};
+}
 module.exports = routes;
